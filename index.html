@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Mohamed | Developer API v1.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="swagger-container">
+        <!-- Top Bar -->
+        <header class="swagger-header">
+            <div class="logo">
+                <i class="fa-solid fa-server"></i>
+                <span>AliMohamed.API</span>
+                <span class="version">v1.0.0</span>
+            </div>
+            <div class="status-badge"><i class="fa-solid fa-bolt"></i> OAS 3.0</div>
+        </header>
+
+        <!-- API Info -->
+        <div class="api-info">
+            <h1>Ali Mohamed Controller</h1>
+            <p class="description">Full-Stack .NET Developer API Endpoint collection. Select an endpoint and click <strong>Execute</strong> to interface with the developer.</p>
+            <div class="base-url">Base URL: <code>https://api.alimohamed.dev/v1</code></div>
+        </div>
+
+        <!-- Endpoints List -->
+        <div class="endpoints-wrapper">
+
+            <!-- Endpoint: Call -->
+            <div class="endpoint-card get">
+                <div class="endpoint-header">
+                    <span class="method get-method">GET</span>
+                    <span class="path">/ali/phone</span>
+                    <span class="summary">Direct Phone Call</span>
+                </div>
+                <div class="endpoint-body">
+                    <a href="tel:+201094976049" class="exec-btn">Execute Call <i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+            <!-- Endpoint: WhatsApp -->
+            <div class="endpoint-card post">
+                <div class="endpoint-header">
+                    <span class="method post-method">POST</span>
+                    <span class="path">/ali/whatsapp</span>
+                    <span class="summary">Send Instant Message</span>
+                </div>
+                <div class="endpoint-body">
+                    <a href="https://wa.me/201094976049" target="_blank" class="exec-btn wa">Execute Message <i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Endpoint: Email -->
+            <div class="endpoint-card post">
+                <div class="endpoint-header">
+                    <span class="method post-method">POST</span>
+                    <span class="path">/ali/email</span>
+                    <span class="summary">Send Direct Email</span>
+                </div>
+                <div class="endpoint-body">
+                    <a href="mailto:alimohamedelnaggar408@gmail.com" class="exec-btn">Execute Email <i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <!-- Endpoint: LinkedIn -->
+            <div class="endpoint-card get">
+                <div class="endpoint-header">
+                    <span class="method get-method">GET</span>
+                    <span class="path">/ali/linkedin</span>
+                    <span class="summary">Fetch Professional Profile</span>
+                </div>
+                <div class="endpoint-body">
+                    <a href="https://www.linkedin.com/in/ali-mohamed-am/" target="_blank" class="exec-btn">Execute Request <i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Endpoint: GitHub -->
+            <div class="endpoint-card get">
+                <div class="endpoint-header">
+                    <span class="method get-method">GET</span>
+                    <span class="path">/ali/github</span>
+                    <span class="summary">Fetch Code Repositories</span>
+                </div>
+                <div class="endpoint-body">
+                    <a href="https://github.com/alimohamedelnaggar" target="_blank" class="exec-btn">Execute Request <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Endpoint: Portfolio -->
+            <div class="endpoint-card get">
+                <div class="endpoint-header">
+                    <span class="method get-method">GET</span>
+                    <span class="path">/ali/portfolio</span>
+                    <span class="summary">Get Portfolio Showcase</span>
+                </div>
+                <div class="endpoint-body">
+                    <a href="https://ali-codes-bright.lovable.app/" target="_blank" class="exec-btn">Execute Request <i class="fa-solid fa-globe"></i></a>
+                </div>
+            </div>
+
+            <!-- Endpoint: Download Resume -->
+            <div class="endpoint-card download">
+                <div class="endpoint-header">
+                    <span class="method dl-method">FETCH</span>
+                    <span class="path">/ali/resume.pdf</span>
+                    <span class="summary">Download Resume File</span>
+                </div>
+                <div class="endpoint-body">
+                    <a href="AliMohamedCV.pdf" target="_blank" class="exec-btn dl">Download Payload <i class="fa-solid fa-download"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <span>Response Header: <code>HTTP/1.1 200 OK</code></span>
+        </footer>
+    </div>
+
+</body>
+</html>
